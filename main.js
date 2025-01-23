@@ -17,6 +17,8 @@ for (let i = 1; i < biciclette.length; i++) {
     }
 };
 
+console.log(`La bici più leggera è la ${biciLeggera.nome} con un peso di ${biciLeggera.peso} kg.`);
+
 //Creare un array di oggetti di squadre di calcio.
 //Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 //Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
