@@ -35,6 +35,11 @@ const squadre = [
     { nome: "Napoli", punti: 0, falliSubiti: 0 }
 ];
 
+squadre.forEach(squadra => {
+    squadra.punti = getRandomInt(10, 100);
+    squadra.falliSubiti = getRandomInt(10, 50);
+});
+
 const nomiEFalli = squadre.map(squadra => {
     return { nome: squadra.nome, falliSubiti: squadra.falliSubiti };
 });
